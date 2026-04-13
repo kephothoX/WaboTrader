@@ -1,0 +1,56 @@
+{
+  "ops": [
+    {
+      "id": "WaboTrader",
+      "args": {
+        "gpu": true,
+        "image": "docker.io/kephotho/wabotrader:latest",
+        "expose": [
+          {
+            "port": 3000,
+            "health_checks": [
+              {
+                "path": "/api/eliza/agents",
+                "type": "http",
+                "method": "GET",
+                "continuous": false,
+                "expected_status": 200
+              }
+            ]
+          }
+        ],
+        "env": {
+          "NODE_ENV": "production",
+          "HOST": "0.0.0.0",
+          "OLLAMA_API_URL": "http://localhost:11434/api",
+          "MODEL_NAME_AT_ENDPOINT": "%%global.variables.MODEL%%",
+          "SOLANA_NETWORK": "mainnet-beta",
+          "SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com",
+          "TRADE_SIMULATION_MODE": "true",
+          "LOG_LEVEL": "info"
+        },
+        "resources": [
+          {
+            "type": "Ollama",
+            "model": "%%global.variables.MODEL%%"
+          }
+        ]
+      },
+      "type": "container/run"
+    }
+  ],
+  "meta": {
+    "trigger": "dashboard",
+    "name": "WaboTrader The Sentient Vanguard of Solana",
+    "system_requirements": {
+      "required_vram": 10
+    }
+  },
+  "type": "container",
+  "global": {
+    "variables": {
+      "MODEL": "qwen3:8b"
+    }
+  },
+  "version": "0.1"
+}

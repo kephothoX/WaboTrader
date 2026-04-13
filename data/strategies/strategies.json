@@ -1,0 +1,29 @@
+[
+  {
+    "id": "strategy_1776093558127_anh3niyu4",
+    "name": "Arbitrage Strategy",
+    "type": "arbitrage",
+    "parameters": {
+      "timeframe": "1h",
+      "token": "SOL",
+      "entryAmount": 500,
+      "priceDifferenceThreshold": 0.005,
+      "maxSlippage": 0.01
+    },
+    "conditions": [
+      {
+        "type": "entry",
+        "indicator": "price_difference",
+        "operator": ">",
+        "value": 0.005
+      }
+    ],
+    "positionSizing": {
+      "type": "percentage",
+      "value": 0.1
+    },
+    "riskProfile": "moderate",
+    "createdAt": "2026-04-13T15:19:18.128Z",
+    "updatedAt": "2026-04-13T15:19:18.128Z"
+  }
+]
