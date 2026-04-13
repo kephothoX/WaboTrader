@@ -19,7 +19,7 @@ WaboTrader is not just a tool; it's a **sentient trading partner** designed to b
 
 Built with **ElizaOS** and hosted on the decentralized **Nosana GPU Network**, this agent possesses a distinct personality: analytical, proactive, and fiercely protective of its user's capital.
 
-![WaboTrader Dashboard](./docs/screenshot.png)
+![WaboTrader Dashboard](./docs/Screenshot.png)
 
 ---
 
