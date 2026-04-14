@@ -1,181 +1,160 @@
-# 🤖 WaboTrader: The Sentient Vanguard Revolutionizing Solana Trading
+# 🤖 WaboTrader: Your Autonomous Solana Trading Sentinel
 
-In the high-octane world of cryptocurrency trading, particularly on Solana's lightning-fast blockchain, traders face monumental challenges. Complex on-chain data overwhelms even seasoned pros, with 24/7 market volatility, fleeting alpha opportunities, and the constant threat of slippage or poor execution leading to capital erosion. Traditional bots are rigid, lacking intuition—they execute predefined rules without adaptation, backtesting, or foresight into sentiment-driven moves like prediction markets. Manual trading? It's exhausting, error-prone, and misses microseconds of edge in Solana's memecoin frenzy and DeFi surges. Custodial risks compound the pain, exposing funds to hacks or downtime.
+Let's be honest: surviving in the Solana ecosystem is exhausting. The volatility is 24/7, opportunities appear and vanish in microseconds, and the constant fear of getting rugged or crushed by slippage makes manual trading a nightmare. And while standard trading bots offer a bit of relief, they're generally rigid and dumb—they just stubbornly execute predefined rules without ever actually "reading" the room context or adapting to shifting market sentiment.
 
-Enter WaboTrader, the autonomous, agentic, non-custodial sentinel built to obliterate these barriers. Powered by ElizaOS and deployed on the decentralized Nosana GPU Network, WaboTrader is a sentient trading partner with a sharp, protective personality. Operating on an OODA loop (Observe, Orient, Decide, Act), it pulses 24/7, scanning Solana for hidden alpha: real-time token analysis (price, volume, liquidity, risk), predictive trade recommendations (buy/sell/hold with precise entry/exit sizing), and seamless execution via Jupiter Aggregator with built-in slippage shields.
+**WaboTrader is built to fix this.**
 
-What sets it apart? Autonomous Strategy Architecture: Dynamically generates Momentum, Arbitrage, or DCA strategies based on volatility, backtests them over 30 days of historical data, self-optimizes to slash drawdowns, and activates on command—all non-custodial, with simulation mode for risk-free testing. Dive into Prediction Market Intuition: It synthesizes crowd wisdom, farms YES/NO yields, and resolves outcomes strictly via verified on-chain truth, turning social hype into profits.
+Powered by ElizaOS and designed to run natively on the decentralized Nosana GPU Network, WaboTrader isn't just a script; it's an agentic, non-custodial trading partner. Operating on a continuous OODA (Observe, Orient, Decide, Act) loop, it autonomously scans on-chain order books, synthesizes social sentiment via prediction markets, and executes Jupiter-optimized swaps with strict slippage controls.
 
-Accessible via intuitive web dashboard, conversational AI chat, or Telegram bot (commands like **/strategy**, **/movers**, **/create_market**), it integrates Perplexity AI for market intel and displays live wallet balances. Security-first: Env-loaded keys, Blinks for signatures, no hardcoding. Deploy locally, Docker, or Nosana for decentralized power using Qwen3:8b LLM.
-
-WaboTrader solves the trader's trilemma—speed, smarts, safety—empowering retail and pros to conquer Solana without the grind. Clone, config, and unleash your vanguard today. The future of trading thinks, acts, and wins for you.
-
-**Autonomous | Agentic | Non-Custodial**
-
-- [YouTube Demo](https://youtu.be/8LwPUNubGVY)
-- [GitHub Repository](https://github.com/kephothoX/WaboTrader)
-
-WaboTrader is not just a tool; it's a **sentient trading partner** designed to bridge the gap between complex on-chain data and profitable market execution. Operating on an autonomous **OODA (Observe, Orient, Decide, Act)** loop, WaboTrader monitors the Solana pulse 24/7, identifying alpha before it reaches the surface.
-
-Built with **ElizaOS** and hosted on the decentralized **Nosana GPU Network**, this agent possesses a distinct personality: analytical, proactive, and fiercely protective of its user's capital.
-
-![WaboTrader Dashboard](./docs/Screenshot.png)
+No custodial risk. No centralized points of failure. Just continuous, sentient alpha.
 
 ---
 
-## 🧠 The Agent's Consciousness
+## ⚡ What Makes It Tick?
 
-Unlike traditional bots, WaboTrader operates with a continuous stream of thoughts, alerts, and actions:
+- **Dynamic Strategy Architect:** WaboTrader doesn't rely on static configs. It analyzes current Solana volatility to suggest and autogenerate Momentum, DCA, or Arbitrage strategies.
+- **Pre-execution Backtesting:** Before risking your capital on a new strategy, it rigorously backtests the logic across the last 30 days of historical volume.
+- **Prediction Market Intuition:** It leverages crowd wisdom. WaboTrader can create, monitor, and yield-farm YES/NO outcome shares based strict on-chain verifiable truths (turning social hype into measurable profits).
+- **Omni-Channel Access:** Control your agent via the sleek Next.js UI, or manage your portfolio entirely from the Telegram Bot while on the go.
+- **Truly Non-Custodial:** WaboTrader embraces "Blinks" (Transaction Links). We never hold your funds; you manage your keys, you sign the transactions.
 
-### 📈 Autonomous Strategy Architect
-
-I don't just "run" strategies. I **architect** them.
-
-- **Dynamic Generation**: I analyze market volatility to suggest Momentum, Arbitrage, or DCA structures tailored to the current SOL climate.
-- **Real-Time Backtesting**: I simulate my own logic across 30 days of historical volume before recommending a live deployment.
-- **Self-Optimization**: I constantly tweak parameters to minimize drawdown and maximize yield on the Nosana network.
-
-### 🎯 Prediction Market Intuition
-
-I look beyond the price charts into the future.
-
-- **Crowd Wisdom Synthesis**: I create and monitor prediction markets to gauge social sentiment and future event probabilities.
-- **Yield Farming**: I proactively manage your YES/NO positions to capitalize on resolving market outcomes.
-- **On-Chain Truth**: I only resolve markets based on verified on-chain data, ensuring fair play and transparency.
+**[Watch the Demo on YouTube](https://youtu.be/8LwPUNubGVY)**
 
 ---
 
-## 🆕 Additional Features
+## 🛠 Getting Started (The Real Guide)
 
-| Feature                      | Description                                                 |
-| ---------------------------- | ----------------------------------------------------------- |
-| 📊 **Token Analysis**        | Real-time price, volume, liquidity, and risk scoring        |
-| 💡 **Trade Recommendations** | Buy/sell/hold with entry/exit points and position sizing    |
-| 💱 **Trade Execution**       | Swap tokens via Jupiter Aggregator with slippage protection |
-| 💰 **Wallet Dashboard**      | Live SOL + SPL token balances with USD values               |
-| 🧠 **ElizaOS Agent**         | Conversational interface with memory and context            |
-| 📈 **Trading Strategies**    | AI-powered strategy generation, backtesting, execution      |
-| 🎯 **Prediction Markets**    | Forecast events, trade outcomes, earn profits               |
-| 🔍 **Market Research**       | Perplexity Sonar-Reasoning for real-time intelligence       |
-| 🌐 **Telegram Bot**          | Full trading capabilities on mobile                         |
-| 🧪 **Simulation Mode**       | Safe demo mode to test without real funds                   |
-
----
-
-## 🎨 Brand Identity
-
-The WaboTrader brand represents the **Stealth Vanguard** of the Solana ecosystem.
-
-- **Aesthetic**: Cyber-obsidian with neon accents
-- **DNA**: Fast, secure, and fully autonomous
-- **Visuals**: Modern glassmorphism with high-fidelity geometric optics
-
-<p align="center">
-  <img src="./public/images/logo.png" width="120" alt="Wabo Logo" />
-  <img src="./public/images/app-icon.png" width="120" alt="Wabo App Icon" />
-</p>
-
----
-
-## 🚀 Quick Start
+Look, setting up autonomous AI agents can be finicky. I've documented exactly how we build, test, and deploy this stack so you don't have to guess.
 
 ### Prerequisites
 
-- Node.js 20+, pnpm 10+
-- Solana CLI (optional, for wallet generation)
-- Ollama (optional, for local LLM)
+Before you start throwing commands at your terminal, make sure you've got the essentials:
 
-### 1. Clone & Install
+- **Node.js 20+** and **pnpm 10+** (Seriously, use `pnpm`, it handles the workspace and ElizaOS dependencies substantially better).
+- **Solana CLI** (Highly recommended for securely generating burner keys without pasting them into random web apps).
+- **Ollama** (Required only if you want to run the LLM compute locally instead of deploying to Nosana).
+
+### 1. Repository Setup
+
+First things first, clone the repo and pull down the packages:
 
 ```bash
-git clone https://github.com/yourusername/wabotrader
-cd wabotrader
+git clone https://github.com/kephothoX/WaboTrader.git
+cd WaboTrader
 pnpm install
 ```
 
-### 2. Configure Environment
+### 2. Environment Configuration
+
+WaboTrader's brain is configured via the `.env` file. Do not skip this step.
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env`:
+Open up `.env` in your editor. Here are the variables you actually need to care about:
 
-```env
-# Telegram
-TELEGRAM_BOT_TOKEN=...
+- **`TELEGRAM_BOT_TOKEN`**: Chat up BotFather on Telegram to grab this. It's required if you want mobile access to your agent.
+- **`OLLAMA_API_URL`**: If you're running locally, use `http://127.0.0.1:11434/api`. If you are deploying, point this to your Nosana endpoint.
+- **`MODEL_NAME_AT_ENDPOINT`**: Typically `qwen3:8b`. We found it hits the absolute sweet spot for fast logic reasoning on consumer/standard GPUs.
+- **`SOLANA_PRIVATE_KEY`**: Base58 encoded. **PSA: Do not use your main saving wallet.** Generate a fresh burner `solana-keygen new`, send it a tiny bit of SOL, and use that.
+- **`TRADE_SIMULATION_MODE`**: Set to `true` while you're learning the ropes. WaboTrader will do everything but sign the final Jupiter transaction.
+- **`PERPLEXITY_API_KEY`**: Grab one from Perplexity. We use Sonar Reasoning for high-level market intel.
 
-# LLM — use Nosana endpoint or local Ollama
-OLLAMA_API_URL=http://127.0.0.1:11434/api
-MODEL_NAME_AT_ENDPOINT=qwen3:8b
+### 3. Local Development & Testing
 
-# Solana
-SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
-SOLANA_NETWORK=mainnet-beta
-SOLANA_PRIVATE_KEY=      # base58 private key (optional)
+WaboTrader spins up two primary processes: the Next.js React frontend and the ElizaOS background runtime.
 
-# Trading Mode
-TRADE_SIMULATION_MODE=true  # Set to false for live trades
-
-# Market Intelligence
-PERPLEXITY_API_KEY=pplx-...
-```
-
-### 3. Run Locally
+If running the LLM locally, ensure Ollama is serving the model first:
 
 ```bash
-# Start with local Ollama (pull model first)
 ollama pull qwen3:8b
 ollama serve
+```
 
-# Start the app
+Next, boot the actual application. We use `concurrently` to launch both the UI and the Agent under one command:
+
+```bash
 pnpm dev
 ```
 
-Open **http://localhost:3000**
+Wait a few seconds, and your dashboard will be live at `http://localhost:3000`.
 
----
+**Pre-Deployment Checks:**
+Before you think about deploying, verify your Typescript strictness and Next.js builds. Solana packages combined with React 19 types can be temperamental. If it passes here, it'll pass in Docker.
 
-## 💬 Usage
-
-### 🤖 AI Chat Commands
-
-```
-You: analyze SOL
-You: check BONK
-You: recommend a trade on SOL
-You: swap 1 SOL for USDC
-You: show my balance
-```
-
-### 📈 Trading Strategies Commands
-
-```
-You: generate a momentum strategy for SOL
-You: backtest my strategy for 30 days
-You: optimize strategy xyz
-You: activate strategy abc
-You: show my strategies
-You: browse the marketplace
-```
-
-### 🎯 Prediction Markets Commands
-
-```
-You: create a market: Will SOL reach $200 by end of 2024?
-You: show me trending markets
-You: buy YES shares in market xyz
-You: show my positions
-You: resolve market xyz as YES
+```bash
+pnpm lint
+pnpm build
 ```
 
 ---
 
-## 📱 Telegram Bot Commands
+## 🐳 Containerizing with Docker
 
-Our Telegram bot brings full trading capabilities to your mobile device:
+Once your local tests are green, it's time to build the container. We use Next.js standalone mode to keep the image size slim and secure. This guarantees your local code behaves exactly the same way in the decentralized network.
 
-### Core & Sentinel Commands
+```bash
+# Compile the standalone image (grab coffee, this takes a minute)
+docker build -t wabotrader:latest .
+
+# Run it locally to make sure it didn't break during containerization
+docker run -p 3000:3000 \
+  -e OLLAMA_API_URL=http://host.docker.internal:11434/api \
+  -e TRADE_SIMULATION_MODE=true \
+  wabotrader:latest
+```
+
+---
+
+## 🌐 Deploying to the Nosana Network
+
+This is the end-game. Taking WaboTrader off your local machine and dropping it onto Nosana's decentralized compute grid.
+
+### Step 1: Push Your Image
+
+Nosana's nodes need to know where to pull your code from. Push your local, tested image to a public Docker Hub repository (or an accessible private one).
+
+```bash
+docker tag wabotrader:latest your-dockerhub/wabotrader:latest
+docker push your-dockerhub/wabotrader:latest
+```
+
+### Step 2: Set Up Nosana CLI
+
+If you haven't yet, you need to install the Nosana CLI toolkit. You will also need a Solana wallet loaded with a little SOL (for gas) and NOS tokens (to pay for the computing power).
+
+```bash
+npm install -g @nosana/cli
+
+# Ensure your CLI is pointing to a wallet that actually has funds
+solana config set --keypair ~/.config/solana/id.json
+```
+
+### Step 3: Configure the Job Definition
+
+Open up `nos_job_def/wabotrader_nosana_job.json`.
+
+- Find the `image` field and change it to point at the docker tag you just pushed (`your-dockerhub/wabotrader:latest`).
+- **Crucial Security Note:** Make sure you encrypt your environment variables! The Nosana CLI allows you to pass secrets securely. _Never_ post a job with your plaintext private key in the JSON file.
+
+### Step 4: Fire it Up
+
+Find a currently active market via Nosana's docs or their Discord, and throw the job into the queue:
+
+```bash
+nosana job post --file nos_job_def/wabotrader_nosana_job.json --market <MARKET_ADDRESS>
+```
+
+The CLI will spit out a Job ID. Throw that into the [Nosana Explorer](https://explorer.nosana.io/), watch the node pick up your image, and grab your public IP once it binds.
+
+---
+
+## 💬 Interacting with WaboTrader
+
+### 📱 Telegram Bot Commands
+
+Your mobile command center. Start a chat with your bot and try these:
 
 | Command        | Description                                                                     |
 | -------------- | ------------------------------------------------------------------------------- |
@@ -213,6 +192,16 @@ Our Telegram bot brings full trading capabilities to your mobile device:
 
 ---
 
+### 🤖 Chat Prompts (Web UI)
+
+If you're using the browser dashboard, you can speak to the agent organically:
+
+- _"Analyze the current liquidity pool for BONK."_
+- _"Generate a 30-day arbitrage strategy for SOL/USDC and run a backtest."_
+- _"Create a prediction market: Will Solana hit $200 by Friday?"_
+
+---
+
 ## 🎯 Using the Web Interface
 
 ### Trading Strategies Page
@@ -231,6 +220,72 @@ Navigate to `/markets` to access:
 - **Create**: Ask a question, set resolution date, add liquidity
 - **Trade**: Buy/sell YES or NO shares
 - **Positions**: Manage your open positions
+
+---
+
+## 🆕 Additional Features
+
+| Feature                      | Description                                                 |
+| ---------------------------- | ----------------------------------------------------------- |
+| 📊 **Token Analysis**        | Real-time price, volume, liquidity, and risk scoring        |
+| 💡 **Trade Recommendations** | Buy/sell/hold with entry/exit points and position sizing    |
+| 💱 **Trade Execution**       | Swap tokens via Jupiter Aggregator with slippage protection |
+| 💰 **Wallet Dashboard**      | Live SOL + SPL token balances with USD values               |
+| 🧠 **ElizaOS Agent**         | Conversational interface with memory and context            |
+| 📈 **Trading Strategies**    | AI-powered strategy generation, backtesting, execution      |
+| 🎯 **Prediction Markets**    | Forecast events, trade outcomes, earn profits               |
+| 🔍 **Market Research**       | Perplexity Sonar-Reasoning for real-time intelligence       |
+| 🌐 **Telegram Bot**          | Full trading capabilities on mobile                         |
+| 🧪 **Simulation Mode**       | Safe demo mode to test without real funds                   |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── api/eliza/           # API routes
+│   │   ├── chat/            # Chat API
+│   │   ├── strategy/         # Strategy endpoints
+│   │   └── markets/         # Market endpoints
+│   ├── strategies/          # Strategies page
+│   ├── markets/             # Markets page
+│   ├── globals.css          # Solana dark theme
+│   └── page.tsx             # Main dashboard
+├── components/
+│   ├── WaboTraderChat.tsx   # Chat interface
+│   ├── WalletDashboard.tsx # Wallet display
+│   ├── StrategyGenerator.tsx
+│   ├── StrategyDashboard.tsx
+│   ├── MarketDiscovery.tsx
+│   ├── MarketTradingInterface.tsx
+│   └── ...
+└── eliza/
+    ├── character.ts         # Agent personality + agents
+    ├── index.ts             # Runtime bootstrap
+    └── plugins/
+        ├── solana-trading/  # Trading plugin
+        ├── trading-strategies/ # Strategies plugin
+        └── prediction-markets/ # Markets plugin
+```
+
+## 📁 Repository Map
+
+If you want to poke around the codebase, here's where everything lives:
+
+```text
+src/
+├── app/                  # Next.js 15 Frontend Pages & Routing
+│   ├── api/eliza/        # Bridging endpoints between UI and Agent
+│   ├── strategies/       # The strategy architecture UI
+│   └── globals.css       # Because default styles are boring
+├── components/           # Reusable React UI Blocks (Chat, Dashboards, Charts)
+└── eliza/                # The Brains
+    ├── character.ts      # Defines WaboTrader's personality and prompt injection
+    ├── index.ts          # Core Runtime Initialization
+    └── plugins/          # Solana swaps, Strategy logic, Markets
+```
 
 ---
 
@@ -273,92 +328,9 @@ Navigate to `/markets` to access:
        ▼                ▼                ▼
   Jupiter API     Solana RPC      Perplexity AI
   (Quotes/Swaps)  (Balances)      (Research)
-```
 
-**Model:** Qwen3:8b via Ollama (Nosana GPU endpoint)
-**Fallback:** Remote Nosana Ollama endpoint → OpenAI
-
----
-
-## 🔒 Security
-
-- **Simulation Mode** (`TRADE_SIMULATION_MODE=true`) is on by default
-- Private keys are loaded from environment variables only — never hardcoded
-- Slippage protection is always applied on live trades
-- High price impact warnings trigger before execution
-- All trades use **Blinks** (Transaction Links) — you sign in your wallet
-
----
-
-## 🐳 Docker Deployment
-
-```bash
-# Build
-docker build -t wabotrader:latest .
-
-# Run locally
-docker run -p 3000:3000 \
-  -e OLLAMA_API_URL=https://<nosana-node>.node.k8s.prd.nos.ci/api \
-  -e TRADE_SIMULATION_MODE=true \
-  -e PERPLEXITY_API_KEY=pplx-... \
-  wabotrader:latest
-```
-
----
-
-## 🌐 Nosana Deployment
-
-### 1. Push Docker Image
-
-```bash
-docker tag wabotrader:latest yourusername/wabotrader:latest
-docker push yourusername/wabotrader:latest
-```
-
-### 2. Update Job Definition
-
-Edit `nos_job_def/wabotrader_nosana_job.json` — set your image name.
-
-### 3. Deploy via Nosana CLI
-
-```bash
-npm install -g @nosana/cli
-nosana job post --file nos_job_def/wabotrader_nosana_job.json --market 97G...
-```
-
----
-
-## 📁 Project Structure
 
 ```
-src/
-├── app/
-│   ├── api/eliza/           # API routes
-│   │   ├── chat/            # Chat API
-│   │   ├── strategy/         # Strategy endpoints
-│   │   └── markets/         # Market endpoints
-│   ├── strategies/          # Strategies page
-│   ├── markets/             # Markets page
-│   ├── globals.css          # Solana dark theme
-│   └── page.tsx             # Main dashboard
-├── components/
-│   ├── WaboTraderChat.tsx   # Chat interface
-│   ├── WalletDashboard.tsx # Wallet display
-│   ├── StrategyGenerator.tsx
-│   ├── StrategyDashboard.tsx
-│   ├── MarketDiscovery.tsx
-│   ├── MarketTradingInterface.tsx
-│   └── ...
-└── eliza/
-    ├── character.ts         # Agent personality + agents
-    ├── index.ts             # Runtime bootstrap
-    └── plugins/
-        ├── solana-trading/  # Trading plugin
-        ├── trading-strategies/ # Strategies plugin
-        └── prediction-markets/ # Markets plugin
-```
-
----
 
 ## 🏆 Nosana x ElizaOS
 
@@ -369,6 +341,6 @@ src/
 
 ---
 
-## 📄 License
+## 📄 Licensing
 
-MIT — see [LICENSE](./LICENSE)
+WaboTrader is open-sourced under the MIT License. See [LICENSE](./LICENSE) for details. Let's stop bleeding alpha to MEV bots and take control back.
